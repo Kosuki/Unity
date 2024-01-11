@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1836883719752101592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8907196882449795687}
+  - component: {fileID: 8023340755242425481}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8907196882449795687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836883719752101592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.75, y: 0.15, z: -1}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8023340755242425481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836883719752101592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 090d6f7b6fef7422ebbc8f228d06bffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ToRight: 1
+  Targets:
+  - {fileID: 8278589360521558199, guid: bd453078d243446a4be8531f69a2abb6, type: 3}
+  - {fileID: 8278589360521558199, guid: bd453078d243446a4be8531f69a2abb6, type: 3}
+  - {fileID: 8278589360521558199, guid: bd453078d243446a4be8531f69a2abb6, type: 3}
+  - {fileID: 8278589360521558199, guid: bd453078d243446a4be8531f69a2abb6, type: 3}
+  - {fileID: 8278589360521558199, guid: bd453078d243446a4be8531f69a2abb6, type: 3}
+  - {fileID: 2206650492027277948, guid: fdff22fce07af0343aaedef9cbbc2a39, type: 3}
+  - {fileID: 3483538063487760972, guid: acd5f08428015b744b389184547b6012, type: 3}
+  - {fileID: 8591888043789990193, guid: ffe4c496374152b419ef19ae3d1a84c4, type: 3}
+  - {fileID: 6193358598607626062, guid: be954cad99d55964ca17b3040d656966, type: 3}
+  - {fileID: 7931389118131624164, guid: 523f9fab9e0c54b3b9215fc72ac4137b, type: 3}
+  - {fileID: 5130385854872360962, guid: 508bbf24412660f4599736f2f74150a5, type: 3}
+  gameManager: {fileID: 0}
