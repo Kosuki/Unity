@@ -22,4 +22,4 @@ MonoBehaviour:
   - {fileID: 5661905743378708422, guid: a64777747b2c6f74eb03308acc7b58b6, type: 3}
   enemyRateMax: 3
   actived: 1
-  enemySpeed: 0.8
+  enemySpeed: 0.85

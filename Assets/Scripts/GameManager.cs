@@ -145,7 +145,8 @@ public class GameManager : MonoBehaviour
                 break;
 
             case TargetType.speedPlus:
-                Settings.TargetSpeed *= 1.2f;
+                if (Settings.TargetSpeed < 1.85f)
+                    Settings.TargetSpeed *= 1.2f;
                 break;
 
             case TargetType.speedMinus:

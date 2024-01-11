@@ -24,6 +24,8 @@ MonoBehaviour:
   - {fileID: 5661905743378708422, guid: 7368761e63bc0c943a76b92b364c3fe1, type: 3}
   - {fileID: 5661905743378708422, guid: 825efcc301029004f8a462da42029947, type: 3}
   - {fileID: 5661905743378708422, guid: a64777747b2c6f74eb03308acc7b58b6, type: 3}
+  - {fileID: 5661905743378708422, guid: a64777747b2c6f74eb03308acc7b58b6, type: 3}
+  - {fileID: 5661905743378708422, guid: a64777747b2c6f74eb03308acc7b58b6, type: 3}
   enemyRateMax: 2
   actived: 0
   enemySpeed: 0.85
